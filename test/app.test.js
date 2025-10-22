@@ -8,6 +8,6 @@ describe('GET /',()=>{
         expect(response.text).toBe("Welcome to ShopEasy from bala");
     })
 })
-aferAll(()=>{
+afterAll(()=>{
     server.close();
 })
